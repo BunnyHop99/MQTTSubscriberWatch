@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<manifest package="org.tizen.example.MQTTSubscriberWatch" version="1.0.0" api-version="5.5" xmlns="http://tizen.org/ns/packages">
+    <profile name="wearable" />
+    <ui-application appid="org.tizen.example.MQTTSubscriberWatch" exec="MQTTSubscriberWatch.dll" multiple="false" nodisplay="false" taskmanage="true" api-version="6" type="dotnet" launch_mode="single">
+        <label>MQTTSubscriberWatch</label>
+        <icon>MQTTSubscriberWatch.png</icon>
+        <metadata key="http://tizen.org/metadata/prefer_dotnet_aot" value="true" />
+        <splash-screens />
+    </ui-application>
+    <shortcut-list />
+    <privileges>
+        <privilege>http://tizen.org/privilege/notification</privilege>
+    </privileges>
+    <dependencies />
+    <provides-appdefined-privileges />
+</manifest>
